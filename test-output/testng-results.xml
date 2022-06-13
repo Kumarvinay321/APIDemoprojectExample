@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6637" started-at="2022-06-08T11:25:00 IST" finished-at="2022-06-08T11:25:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6637" started-at="2022-06-08T11:25:00 IST" finished-at="2022-06-08T11:25:07 IST">
+      <class name="RestAssuredAPITesting.PutAPIRequest">
+        <test-method status="PASS" signature="TC1_PutRequest_ExistingRequest()[pri:0, instance:RestAssuredAPITesting.PutAPIRequest@6950e31]" name="TC1_PutRequest_ExistingRequest" duration-ms="847" started-at="2022-06-08T11:25:05 IST" finished-at="2022-06-08T11:25:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_PutRequest_ExistingRequest -->
+        <test-method status="PASS" signature="TC2_PutRequest_ModifiedRequest()[pri:0, instance:RestAssuredAPITesting.PutAPIRequest@6950e31]" name="TC2_PutRequest_ModifiedRequest" duration-ms="505" started-at="2022-06-08T11:25:06 IST" finished-at="2022-06-08T11:25:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_PutRequest_ModifiedRequest -->
+        <test-method status="PASS" signature="TC3_PutRequest_NewRequest()[pri:0, instance:RestAssuredAPITesting.PutAPIRequest@6950e31]" name="TC3_PutRequest_NewRequest" duration-ms="582" started-at="2022-06-08T11:25:06 IST" finished-at="2022-06-08T11:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_PutRequest_NewRequest -->
+      </class> <!-- RestAssuredAPITesting.PutAPIRequest -->
+      <class name="RestAssuredAPITesting.GetAPIRequest">
+        <test-method status="PASS" signature="GetMethodRequests()[pri:0, instance:RestAssuredAPITesting.GetAPIRequest@2db7a79b]" name="GetMethodRequests" duration-ms="1675" started-at="2022-06-08T11:25:03 IST" finished-at="2022-06-08T11:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMethodRequests -->
+      </class> <!-- RestAssuredAPITesting.GetAPIRequest -->
+      <class name="RestAssuredAPITesting.PostAPIRequest">
+        <test-method status="PASS" signature="TC1_PostMethod_ValidCredentials()[pri:0, instance:RestAssuredAPITesting.PostAPIRequest@e720b71]" name="TC1_PostMethod_ValidCredentials" duration-ms="2993" started-at="2022-06-08T11:25:00 IST" finished-at="2022-06-08T11:25:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_PostMethod_ValidCredentials -->
+      </class> <!-- RestAssuredAPITesting.PostAPIRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
